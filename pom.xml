@@ -12,6 +12,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <mongo-driver-legacy.version>[4.0.0,4.8.0]</mongo-driver-legacy.version>
     </properties>
 
     <dependencies>
@@ -20,6 +21,17 @@
             <groupId>com.github.javaparser</groupId>
             <artifactId>javaparser-core</artifactId>
             <version>(3.3.0,)</version>
+        </dependency>
+        <dependency>
+            <groupId>com.github.javaparser</groupId>
+            <artifactId>javaparser-symbol-solver-core</artifactId>
+            <version>(3.3.0,)</version>
+        </dependency>
+        <dependency>
+            <groupId>org.mongodb</groupId>
+            <artifactId>mongodb-driver-legacy</artifactId>
+            <version>${mongo-driver-legacy.version}</version>
+            <scope>provided</scope>
         </dependency>
         <!-- <dependency>
             <groupId>org.neo4j</groupId>
@@ -36,11 +48,11 @@
             <artifactId>zeppelin-python</artifactId>
             <version>[0.0.1,)</version>
         </dependency> -->
-        <!-- <dependency>
+        <dependency>
             <groupId>org.apache.maven</groupId>
             <artifactId>maven-embedder</artifactId>
             <version>[3.0.0,)</version>
-        </dependency> -->
+        </dependency>
         <dependency>
             <groupId>org.apache.maven.shared</groupId>
             <artifactId>maven-invoker</artifactId>
