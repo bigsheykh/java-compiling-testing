@@ -1,3 +1,6 @@
 [submodule "bguerout-jongo"]
 	path = repos/bguerout/jongo
 	url = https://github.com/bguerout/jongo.git
+[submodule "brettwooldridge-HikariCP"]
+	path = repos/brettwooldridge/HikariCP
+	url = https://github.com/brettwooldridge/HikariCP.git
