@@ -1,0 +1,3 @@
+[submodule "bguerout-jongo"]
+	path = repos/bguerout/jongo
+	url = https://github.com/bguerout/jongo.git
