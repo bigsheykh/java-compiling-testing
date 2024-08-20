@@ -1,0 +1,961 @@
+dbCollection.getWriteConcern()
+
+import com.mongodb.DBCollection
+import com.mongodb.WriteConcern
+
+Class Test {
+	public WriteConcern testMethod(DBCollection context) {
+		return context.getWriteConcern();
+	}
+}
+
+
+
+
+dbCollection.getReadPreference()
+
+import com.mongodb.ReadPreference
+import com.mongodb.DBCollection
+
+Class Test {
+	public ReadPreference testMethod(DBCollection context) {
+		return context.getReadPreference();
+	}
+}
+
+
+
+
+dbCollection.getReadConcern()
+
+import com.mongodb.DBCollection
+import com.mongodb.ReadConcern
+
+Class Test {
+	public ReadConcern testMethod(DBCollection context) {
+		return context.getReadConcern();
+	}
+}
+
+
+
+
+mapper.getUnmarshaller()
+
+import org.jongo.Mapper
+import org.jongo.marshall.Unmarshaller
+
+Class Test {
+	public Unmarshaller testMethod(Mapper context) {
+		return context.getUnmarshaller();
+	}
+}
+
+
+
+
+mapper.getQueryFactory()
+
+import org.jongo.Mapper
+import org.jongo.query.QueryFactory
+
+Class Test {
+	public QueryFactory testMethod(Mapper context) {
+		return context.getQueryFactory();
+	}
+}
+
+
+
+
+findOne(ALL)
+
+import org.jongo.FindOne
+import java.lang.String
+import org.jongo.MongoCollection
+
+Class Test {
+	public FindOne testMethod(MongoCollection context, java.lang.String argNumber1) {
+		return context.findOne(argNumber1);
+	}
+}
+
+
+
+
+findOne(query, NO_PARAMETERS)
+
+import org.jongo.FindOne
+import java.lang.Object
+import java.lang.String
+import org.jongo.MongoCollection
+
+Class Test {
+	public FindOne testMethod(MongoCollection context, java.lang.String argNumber1, java.lang.Object[] argNumber2) {
+		return context.findOne(argNumber1, argNumber2);
+	}
+}
+
+
+
+
+mapper.getUnmarshaller()
+
+import org.jongo.Mapper
+import org.jongo.marshall.Unmarshaller
+
+Class Test {
+	public Unmarshaller testMethod(Mapper context) {
+		return context.getUnmarshaller();
+	}
+}
+
+
+
+
+mapper.getQueryFactory()
+
+import org.jongo.Mapper
+import org.jongo.query.QueryFactory
+
+Class Test {
+	public QueryFactory testMethod(Mapper context) {
+		return context.getQueryFactory();
+	}
+}
+
+
+
+
+find(ALL)
+
+import org.jongo.Find
+import java.lang.String
+import org.jongo.MongoCollection
+
+Class Test {
+	public Find testMethod(MongoCollection context, java.lang.String argNumber1) {
+		return context.find(argNumber1);
+	}
+}
+
+
+
+
+find(query, NO_PARAMETERS)
+
+import org.jongo.Find
+import java.lang.Object
+import java.lang.String
+import org.jongo.MongoCollection
+
+Class Test {
+	public Find testMethod(MongoCollection context, java.lang.String argNumber1, java.lang.Object[] argNumber2) {
+		return context.find(argNumber1, argNumber2);
+	}
+}
+
+
+
+
+mapper.getUnmarshaller()
+
+import org.jongo.Mapper
+import org.jongo.marshall.Unmarshaller
+
+Class Test {
+	public Unmarshaller testMethod(Mapper context) {
+		return context.getUnmarshaller();
+	}
+}
+
+
+
+
+mapper.getQueryFactory()
+
+import org.jongo.Mapper
+import org.jongo.query.QueryFactory
+
+Class Test {
+	public QueryFactory testMethod(Mapper context) {
+		return context.getQueryFactory();
+	}
+}
+
+
+
+
+findAndModify(ALL)
+
+import java.lang.String
+import org.jongo.FindAndModify
+import org.jongo.MongoCollection
+
+Class Test {
+	public FindAndModify testMethod(MongoCollection context, java.lang.String argNumber1) {
+		return context.findAndModify(argNumber1);
+	}
+}
+
+
+
+
+findAndModify(query, NO_PARAMETERS)
+
+import java.lang.Object
+import java.lang.String
+import org.jongo.FindAndModify
+import org.jongo.MongoCollection
+
+Class Test {
+	public FindAndModify testMethod(MongoCollection context, java.lang.String argNumber1, java.lang.Object[] argNumber2) {
+		return context.findAndModify(argNumber1, argNumber2);
+	}
+}
+
+
+
+
+mapper.getUnmarshaller()
+
+import org.jongo.Mapper
+import org.jongo.marshall.Unmarshaller
+
+Class Test {
+	public Unmarshaller testMethod(Mapper context) {
+		return context.getUnmarshaller();
+	}
+}
+
+
+
+
+mapper.getQueryFactory()
+
+import org.jongo.Mapper
+import org.jongo.query.QueryFactory
+
+Class Test {
+	public QueryFactory testMethod(Mapper context) {
+		return context.getQueryFactory();
+	}
+}
+
+
+
+
+collection.getCount()
+
+import com.mongodb.DBCollection
+import long
+
+Class Test {
+	public long testMethod(DBCollection context) {
+		return context.getCount();
+	}
+}
+
+
+
+
+count(query, NO_PARAMETERS)
+
+import java.lang.Object
+import java.lang.String
+import org.jongo.MongoCollection
+import long
+
+Class Test {
+	public long testMethod(MongoCollection context, java.lang.String argNumber1, java.lang.Object[] argNumber2) {
+		return context.count(argNumber1, argNumber2);
+	}
+}
+
+
+
+
+createQuery(query, parameters).toDBObject()
+
+import com.mongodb.DBObject
+import org.jongo.query.Query
+
+Class Test {
+	public DBObject testMethod(Query context) {
+		return context.toDBObject();
+	}
+}
+
+
+
+
+
+
+collection.getCount(dbQuery)
+
+import com.mongodb.DBObject
+import com.mongodb.DBCollection
+import long
+
+Class Test {
+	public long testMethod(DBCollection context, com.mongodb.DBObject argNumber1) {
+		return context.getCount(argNumber1);
+	}
+}
+
+
+
+
+update(query, NO_PARAMETERS)
+
+import org.jongo.Update
+import java.lang.Object
+import java.lang.String
+import org.jongo.MongoCollection
+
+Class Test {
+	public Update testMethod(MongoCollection context, java.lang.String argNumber1, java.lang.Object[] argNumber2) {
+		return context.update(argNumber1, argNumber2);
+	}
+}
+
+
+
+
+update("{_id:#}", id)
+
+import org.jongo.Update
+import org.bson.types.ObjectId
+import java.lang.String
+import org.jongo.MongoCollection
+
+Class Test {
+	public Update testMethod(MongoCollection context, java.lang.String argNumber1, org.bson.types.ObjectId argNumber2) {
+		return context.update(argNumber1, argNumber2);
+	}
+}
+
+
+
+
+mapper.getQueryFactory()
+
+import org.jongo.Mapper
+import org.jongo.query.QueryFactory
+
+Class Test {
+	public QueryFactory testMethod(Mapper context) {
+		return context.getQueryFactory();
+	}
+}
+
+
+
+
+new Insert(collection, writeConcern, mapper.getMarshaller(), mapper.getObjectIdUpdater(), mapper.getQueryFactory()).save(pojo)
+
+import com.mongodb.WriteResult
+import org.jongo.Insert
+import java.lang.Object
+
+Class Test {
+	public WriteResult testMethod(Insert context, java.lang.Object argNumber1) {
+		return context.save(argNumber1);
+	}
+}
+
+
+
+
+mapper.getMarshaller()
+
+import org.jongo.Mapper
+import org.jongo.marshall.Marshaller
+
+Class Test {
+	public Marshaller testMethod(Mapper context) {
+		return context.getMarshaller();
+	}
+}
+
+
+
+
+mapper.getObjectIdUpdater()
+
+import org.jongo.ObjectIdUpdater
+import org.jongo.Mapper
+
+Class Test {
+	public ObjectIdUpdater testMethod(Mapper context) {
+		return context.getObjectIdUpdater();
+	}
+}
+
+
+
+
+mapper.getQueryFactory()
+
+import org.jongo.Mapper
+import org.jongo.query.QueryFactory
+
+Class Test {
+	public QueryFactory testMethod(Mapper context) {
+		return context.getQueryFactory();
+	}
+}
+
+
+
+
+insert(new Object[] { pojo })
+
+import com.mongodb.WriteResult
+import java.lang.Object
+import org.jongo.MongoCollection
+
+Class Test {
+	public WriteResult testMethod(MongoCollection context, java.lang.Object[] argNumber1) {
+		return context.insert(argNumber1);
+	}
+}
+
+
+
+
+insert(query, NO_PARAMETERS)
+
+import com.mongodb.WriteResult
+import java.lang.Object
+import java.lang.String
+import org.jongo.MongoCollection
+
+Class Test {
+	public WriteResult testMethod(MongoCollection context, java.lang.String argNumber1, java.lang.Object[] argNumber2) {
+		return context.insert(argNumber1, argNumber2);
+	}
+}
+
+
+
+
+new Insert(collection, writeConcern, mapper.getMarshaller(), mapper.getObjectIdUpdater(), mapper.getQueryFactory()).insert(pojos)
+
+import com.mongodb.WriteResult
+import org.jongo.Insert
+import java.lang.Object
+
+Class Test {
+	public WriteResult testMethod(Insert context, java.lang.Object[] argNumber1) {
+		return context.insert(argNumber1);
+	}
+}
+
+
+
+
+mapper.getMarshaller()
+
+import org.jongo.Mapper
+import org.jongo.marshall.Marshaller
+
+Class Test {
+	public Marshaller testMethod(Mapper context) {
+		return context.getMarshaller();
+	}
+}
+
+
+
+
+mapper.getObjectIdUpdater()
+
+import org.jongo.ObjectIdUpdater
+import org.jongo.Mapper
+
+Class Test {
+	public ObjectIdUpdater testMethod(Mapper context) {
+		return context.getObjectIdUpdater();
+	}
+}
+
+
+
+
+mapper.getQueryFactory()
+
+import org.jongo.Mapper
+import org.jongo.query.QueryFactory
+
+Class Test {
+	public QueryFactory testMethod(Mapper context) {
+		return context.getQueryFactory();
+	}
+}
+
+
+
+
+new Insert(collection, writeConcern, mapper.getMarshaller(), mapper.getObjectIdUpdater(), mapper.getQueryFactory()).insert(query, parameters)
+
+import com.mongodb.WriteResult
+import org.jongo.Insert
+import java.lang.Object
+import java.lang.String
+
+Class Test {
+	public WriteResult testMethod(Insert context, java.lang.String argNumber1, java.lang.Object[] argNumber2) {
+		return context.insert(argNumber1, argNumber2);
+	}
+}
+
+
+
+
+mapper.getMarshaller()
+
+import org.jongo.Mapper
+import org.jongo.marshall.Marshaller
+
+Class Test {
+	public Marshaller testMethod(Mapper context) {
+		return context.getMarshaller();
+	}
+}
+
+
+
+
+mapper.getObjectIdUpdater()
+
+import org.jongo.ObjectIdUpdater
+import org.jongo.Mapper
+
+Class Test {
+	public ObjectIdUpdater testMethod(Mapper context) {
+		return context.getObjectIdUpdater();
+	}
+}
+
+
+
+
+mapper.getQueryFactory()
+
+import org.jongo.Mapper
+import org.jongo.query.QueryFactory
+
+Class Test {
+	public QueryFactory testMethod(Mapper context) {
+		return context.getQueryFactory();
+	}
+}
+
+
+
+
+remove("{" + MONGO_DOCUMENT_ID_NAME + ":#}", id)
+
+import com.mongodb.WriteResult
+import org.bson.types.ObjectId
+import java.lang.String
+import org.jongo.MongoCollection
+
+Class Test {
+	public WriteResult testMethod(MongoCollection context, java.lang.String argNumber1, org.bson.types.ObjectId argNumber2) {
+		return context.remove(argNumber1, argNumber2);
+	}
+}
+
+
+
+
+remove(ALL)
+
+import com.mongodb.WriteResult
+import java.lang.String
+import org.jongo.MongoCollection
+
+Class Test {
+	public WriteResult testMethod(MongoCollection context, java.lang.String argNumber1) {
+		return context.remove(argNumber1);
+	}
+}
+
+
+
+
+remove(query, NO_PARAMETERS)
+
+import com.mongodb.WriteResult
+import java.lang.Object
+import java.lang.String
+import org.jongo.MongoCollection
+
+Class Test {
+	public WriteResult testMethod(MongoCollection context, java.lang.String argNumber1, java.lang.Object[] argNumber2) {
+		return context.remove(argNumber1, argNumber2);
+	}
+}
+
+
+
+
+collection.remove(createQuery(query, parameters).toDBObject(), writeConcern)
+
+import com.mongodb.WriteResult
+import com.mongodb.DBObject
+import com.mongodb.DBCollection
+import com.mongodb.WriteConcern
+
+Class Test {
+	public WriteResult testMethod(DBCollection context, com.mongodb.DBObject argNumber1, com.mongodb.WriteConcern argNumber2) {
+		return context.remove(argNumber1, argNumber2);
+	}
+}
+
+
+
+
+createQuery(query, parameters).toDBObject()
+
+import com.mongodb.DBObject
+import org.jongo.query.Query
+
+Class Test {
+	public DBObject testMethod(Query context) {
+		return context.toDBObject();
+	}
+}
+
+
+
+
+
+
+mapper.getUnmarshaller()
+
+import org.jongo.Mapper
+import org.jongo.marshall.Unmarshaller
+
+Class Test {
+	public Unmarshaller testMethod(Mapper context) {
+		return context.getUnmarshaller();
+	}
+}
+
+
+
+
+mapper.getQueryFactory()
+
+import org.jongo.Mapper
+import org.jongo.query.QueryFactory
+
+Class Test {
+	public QueryFactory testMethod(Mapper context) {
+		return context.getQueryFactory();
+	}
+}
+
+
+
+
+aggregate(pipelineOperator, NO_PARAMETERS)
+
+import org.jongo.Aggregate
+import java.lang.Object
+import java.lang.String
+import org.jongo.MongoCollection
+
+Class Test {
+	public Aggregate testMethod(MongoCollection context, java.lang.String argNumber1, java.lang.Object[] argNumber2) {
+		return context.aggregate(argNumber1, argNumber2);
+	}
+}
+
+
+
+
+new Aggregate(collection, mapper.getUnmarshaller(), mapper.getQueryFactory()).and(pipelineOperator, parameters)
+
+import org.jongo.Aggregate
+import java.lang.Object
+import java.lang.String
+
+Class Test {
+	public Aggregate testMethod(Aggregate context, java.lang.String argNumber1, java.lang.Object[] argNumber2) {
+		return context.and(argNumber1, argNumber2);
+	}
+}
+
+
+
+
+mapper.getUnmarshaller()
+
+import org.jongo.Mapper
+import org.jongo.marshall.Unmarshaller
+
+Class Test {
+	public Unmarshaller testMethod(Mapper context) {
+		return context.getUnmarshaller();
+	}
+}
+
+
+
+
+mapper.getQueryFactory()
+
+import org.jongo.Mapper
+import org.jongo.query.QueryFactory
+
+Class Test {
+	public QueryFactory testMethod(Mapper context) {
+		return context.getQueryFactory();
+	}
+}
+
+
+
+
+collection.drop()
+
+import com.mongodb.DBCollection
+
+Class Test {
+	public void testMethod(DBCollection context) {
+		context.drop();
+	}
+}
+
+
+
+
+collection.dropIndex(createQuery(keys).toDBObject())
+
+import com.mongodb.DBObject
+import com.mongodb.DBCollection
+
+Class Test {
+	public void testMethod(DBCollection context, com.mongodb.DBObject argNumber1) {
+		context.dropIndex(argNumber1);
+	}
+}
+
+
+
+
+createQuery(keys).toDBObject()
+
+import com.mongodb.DBObject
+import org.jongo.query.Query
+
+Class Test {
+	public DBObject testMethod(Query context) {
+		return context.toDBObject();
+	}
+}
+
+
+
+
+
+
+collection.dropIndexes()
+
+import com.mongodb.DBCollection
+
+Class Test {
+	public void testMethod(DBCollection context) {
+		context.dropIndexes();
+	}
+}
+
+
+
+
+collection.createIndex(createQuery(keys).toDBObject())
+
+import com.mongodb.DBObject
+import com.mongodb.DBCollection
+
+Class Test {
+	public void testMethod(DBCollection context, com.mongodb.DBObject argNumber1) {
+		context.createIndex(argNumber1);
+	}
+}
+
+
+
+
+createQuery(keys).toDBObject()
+
+import com.mongodb.DBObject
+import org.jongo.query.Query
+
+Class Test {
+	public DBObject testMethod(Query context) {
+		return context.toDBObject();
+	}
+}
+
+
+
+
+
+
+collection.createIndex(createQuery(keys).toDBObject(), createQuery(options).toDBObject())
+
+import com.mongodb.DBObject
+import com.mongodb.DBCollection
+
+Class Test {
+	public void testMethod(DBCollection context, com.mongodb.DBObject argNumber1, com.mongodb.DBObject argNumber2) {
+		context.createIndex(argNumber1, argNumber2);
+	}
+}
+
+
+
+
+createQuery(keys).toDBObject()
+
+import com.mongodb.DBObject
+import org.jongo.query.Query
+
+Class Test {
+	public DBObject testMethod(Query context) {
+		return context.toDBObject();
+	}
+}
+
+
+
+
+
+
+createQuery(options).toDBObject()
+
+import com.mongodb.DBObject
+import org.jongo.query.Query
+
+Class Test {
+	public DBObject testMethod(Query context) {
+		return context.toDBObject();
+	}
+}
+
+
+
+
+
+
+collection.getName()
+
+import com.mongodb.DBCollection
+import java.lang.String
+
+Class Test {
+	public String testMethod(DBCollection context) {
+		return context.getName();
+	}
+}
+
+
+
+
+mapper.getQueryFactory().createQuery(query, parameters)
+
+import org.jongo.query.Query
+import java.lang.Object
+import java.lang.String
+import org.jongo.query.QueryFactory
+
+Class Test {
+	public Query testMethod(QueryFactory context, java.lang.String argNumber1, java.lang.Object[] argNumber2) {
+		return context.createQuery(argNumber1, argNumber2);
+	}
+}
+
+
+
+
+mapper.getQueryFactory()
+
+import org.jongo.Mapper
+import org.jongo.query.QueryFactory
+
+Class Test {
+	public QueryFactory testMethod(Mapper context) {
+		return context.getQueryFactory();
+	}
+}
+
+
+
+
+collection.getName()
+
+import com.mongodb.DBCollection
+import java.lang.String
+
+Class Test {
+	public String testMethod(DBCollection context) {
+		return context.getName();
+	}
+}
+
+
+
+
+collection.getDB().getName()
+
+import com.mongodb.DB
+import java.lang.String
+
+Class Test {
+	public String testMethod(DB context) {
+		return context.getName();
+	}
+}
+
+
+
+
+collection.getDB()
+
+import com.mongodb.DBCollection
+import com.mongodb.DB
+
+Class Test {
+	public DB testMethod(DBCollection context) {
+		return context.getDB();
+	}
+}
+
+
+
+
+super.toString()
+
+import java.lang.Object
+import java.lang.String
+
+Class Test {
+	public String testMethod(Object context) {
+		return context.toString();
+	}
+}
+
+
+
+
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] [1;32mBUILD SUCCESS[m
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
+[[1;34mINFO[m] Total time:  5.215 s
+[[1;34mINFO[m] Finished at: 2024-08-20T21:19:50+03:30
+[[1;34mINFO[m] [1m------------------------------------------------------------------------[m
