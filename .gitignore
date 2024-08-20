@@ -25,3 +25,5 @@ replay_pid*
 target
 
 *.pyc
+src/scripts/extract-dataset/__pycache__/get_set_of_testings.cpython-312.pyc
+dataset-infos/modules.csv
